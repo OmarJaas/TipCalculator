@@ -11,6 +11,7 @@ namespace TipCalculator.Maui.Models
         public decimal PorcentajeDePropina {  get; set; }
 
         //Propiedades que guardan los calculos resultantes
+
         public decimal ImporteDelConsumoPorPersona
             => ImporteDelConsumo / NumeroDePersonas;
         public decimal ImporteDeLaPropina
